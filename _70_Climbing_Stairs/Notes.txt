@@ -1,0 +1,11 @@
+Problem Restatement:
+ - You are climbing a staircase of height n
+ - Each step, you can take one or two steps
+ - How many unique ways are there to reach the top?
+ - 1<=n<=45
+
+Recursion Implementation:
+ - Unique ways to add to n = 2 + unique ways to add to (n-1) + unique ways to add to (n-2)
+ - Likely quite slow, but would be correct (Base cases n=0,1,2)
+    - The more base cases, the fast it would be
+ - Was fast actually (beats 100% of java users) and was easy Implementation of fibonacci seq
