@@ -1,0 +1,8 @@
+Given an integer n, representing n binary tree nodes and two arrays
+leftChild and rightChild, determine if it is a valid binary tree.
+Need properties:
+ - Connected:
+    - Traverse nodes in order we see them
+    - Every node must get visited
+ - No Cycles:
+    - Have to visit each node exactly once
