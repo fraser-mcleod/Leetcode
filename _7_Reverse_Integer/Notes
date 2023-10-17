@@ -7,3 +7,5 @@ Note that:
 x mod 10 = the first digits
 x - the first digit mod 100 = second digit
 ... and so on
+
+Completed using strings but very slow...
