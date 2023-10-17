@@ -34,6 +34,9 @@ class Solution {
             }
             visited[j] = false;
         }
+        if (root < 0){
+            return false;
+        }
 
 
         Queue<Integer> queue = new LinkedList<>();
