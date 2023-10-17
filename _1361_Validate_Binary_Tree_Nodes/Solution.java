@@ -1,4 +1,11 @@
+import java.util.Queue;
 
-public class Solution {
+class Solution {
+    public boolean validateBinaryTreeNodes(int n, int[] leftChild, int[] rightChild) {
+        Boolean visited[] = new Boolean[n];
+        Queue<Integer> queue = new Queue<Integer>();
 
+
+        };
+    }
 }
