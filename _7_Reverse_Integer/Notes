@@ -1,0 +1,9 @@
+Given a signed 32 bit integer, return an integer with its digits reveresed.
+ex:
+input: -1734
+out: -4371
+
+Note that:
+x mod 10 = the first digits
+x - the first digit mod 100 = second digit
+... and so on
