@@ -1,0 +1,7 @@
+Problem Restatement:
+- Given two sorted arrays with m and n entries of length m+n and n
+- Sort the two sets of numbers such that they are all in the array of length m+n
+
+Plan:
+- Let A be the list of m+n size and B be the list of size n
+- We should sort backwards, that way we do not need to worry about moving elements around
