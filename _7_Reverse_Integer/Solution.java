@@ -1,6 +1,15 @@
-package _7_Reverse_Integer;
 
 public class Solution {
+    public static void main(String[] args){
+        Solution tests = new Solution();
+        System.out.println("Input: 1234");
+        System.out.println(tests.reverse(1234));
+        System.out.println("Input: -1234");
+        System.out.println(tests.reverse(-1234));
+        System.out.println("Input: -123456789");
+        System.out.println(tests.reverse(-123456789));
+
+    }
     public int reverse(int x) {
         boolean isPos;
         if (x>=0){
