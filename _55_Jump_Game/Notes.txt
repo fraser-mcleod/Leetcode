@@ -1,0 +1,4 @@
+Given an array of integers that, where each item represents the maximum jump forward
+determine if it is possible to reach the end.
+
+Our technique will be memoization -  once we calculate a certain index, we should not have to calculate it again.
