@@ -4,4 +4,8 @@ Keep two variables:
 1. longest
 2. Cur substring
 We iterate through each character in the string adding it to cur. Once we encounter a repeat char, then
-update longest and make cur = cur[j:] where j is the first occurance of the repeat variable
+update longest and make cur = cur[j:] where j is the first occurance of the repeat variable.
+
+Passed! Very fast and very good memory! Notes:
+I think this would be charcaterized as a greedy algorithm. The data structure of char array
+I think was much faster than String. Finally, illustrative test cases and comments were very useful.
