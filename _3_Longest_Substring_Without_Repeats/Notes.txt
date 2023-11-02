@@ -1,0 +1,7 @@
+Given a string s find the length of the longest substring withou repeating characters
+Idea:
+Keep two variables:
+1. longest
+2. Cur substring
+We iterate through each character in the string adding it to cur. Once we encounter a repeat char, then
+update longest and make cur = cur[j:] where j is the first occurance of the repeat variable
