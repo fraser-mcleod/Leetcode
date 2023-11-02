@@ -1,4 +1,4 @@
-package _24_Swap_Nodes_in_Pairs;
+
 
 public class ListNode {
     int val;

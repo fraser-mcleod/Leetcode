@@ -1,3 +1,27 @@
 Given a linked list, swap every pair of nodes. Do not change nodes value!
 
-Some
+a b c d should become b a c d then b a d c
+
+save b.next
+set b.next to a
+set a next to b.next
+
+save d.next
+set d.next to c
+set c.next to d.next
+a.next = d
+
+If swap1 or swap 2 is null then return
+prev, swap1, swap2, hold:
+hold = swap2.next
+swap2.next = swap1
+swap1.next = hold
+if prev != null:
+    prev.next = swap2
+
+prev = swap1
+swap1 = swap1.next
+// need null check here
+swap2 = swap2.next. next
+
+Complete! Very fast and good on memory too!
