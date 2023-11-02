@@ -1,0 +1,15 @@
+Given a string that may have leading whitespace, follwoing by '+' or '-', convert the string to an integer.
+If the integer is too large or the integer is too small, 'clamp' at the max values.
+
+We cannot go backwards as there may be other characters at end of string.
+This means we must go forward.
+How can we do this without allocating extra space?
+Need to do two checks:
+is MAX/10 < num
+    return MAX
+if num*10 > MAX-digit:
+    return MAX
+num = num*10
+num=num+digit
+
+similar case for negative
