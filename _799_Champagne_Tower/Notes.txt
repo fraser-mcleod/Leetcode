@@ -4,3 +4,6 @@ As noticed before, the glass in the ith row and jth column only depends on the p
 However, we did not think to use a dynamic program before. This means we recalculated at EVERY recursive call
 Instead, we will build up row by row.
 We only need to store two rows at a time.
+
+Complete! 50% speed and 97% for memory!
+Took a bit of time and a few mistakes (such as misunderstanding question) added some time.
