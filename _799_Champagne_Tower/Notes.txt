@@ -1,0 +1,6 @@
+Revisited November 2nd
+Now, it is clear that this is a dynamic programming question.
+As noticed before, the glass in the ith row and jth column only depends on the previous row.
+However, we did not think to use a dynamic program before. This means we recalculated at EVERY recursive call
+Instead, we will build up row by row.
+We only need to store two rows at a time.
