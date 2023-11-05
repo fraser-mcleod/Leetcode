@@ -1,0 +1,30 @@
+Given an array of integers, return all triples [a,b,c] such that
+a + b + c = 0.
+
+Plan:
+Note it would be easy to do in n^3 time. But optimal is n^2.
+1. Sort the list
+2. Iterate through a,b:
+    c = end
+    a = 0
+    b = 1
+    while (a < c-2)
+        c = aStop
+        while (b < c-1)
+            c = bStop
+            while (a+b+c >= 0):
+                if (a + b + c) == 0:
+                    add[a, b, c]
+                if (b-a == 1){
+                    aStop = c
+                }
+                bStop = c
+                c--
+
+    if num[0]+num[1]+num[end] > 0 then num[1]+num[2] + num[end] > 0
+
+
+Complete! Beats 83% in runtime and 51% in memory.
+
+Notes:
+ - biggest issue was off by one and keeping careful track of edge cases
