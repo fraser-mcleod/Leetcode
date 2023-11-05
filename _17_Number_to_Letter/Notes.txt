@@ -1,0 +1,21 @@
+Given a string of the digits [2-9], return all possible combinations of letters that could appear.
+Note, this is necesarily exponential as we could have 3*3*3*3... combs which is 3^n where n is the length.
+
+Gonna be faster to use loops than recursive I believe.
+
+Rcursive solution is:
+
+toLetter(digits, str):
+    if digits.length == 0;
+        return str
+    else:
+        d = digit[0];
+        digit = digit[1:]
+        then 7 cases that look like
+        if digit == "2":
+            result.append(digits, str+"a")
+            result.append(digits, str+"b")
+            result.append(digits, str+"c")
+
+pass references to start and keep digits global
+result should also be a global var
