@@ -22,6 +22,9 @@ public class Solution {
     public List<String> letterCombination(String digits){
         this.digits = digits;
         this.result.clear();
+        if (digits.length() == 0){
+            return result;
+        }
         letterHelper(0, "");
         return result;
     }

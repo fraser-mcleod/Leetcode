@@ -19,3 +19,5 @@ toLetter(digits, str):
 
 pass references to start and keep digits global
 result should also be a global var
+
+Complete! Beat 80% on time and 6% on memory. To fix memory we should not use recursion.
